@@ -1,0 +1,128 @@
+/* universal selector to style all elements with the properties inside of this selector  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+/* to style the <body> of the page */
+body {
+  background-color: #c3d7e7;
+}
+
+/* to style the <header> of the page */
+header {
+  top: 0;
+  background-color: #19a5a5c7;
+  text-align: center;
+  color: #092581;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 25px;
+}
+
+/* class selector to style the <section> (filter) */
+.filter {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 7px;
+  color: #092581;
+}
+
+/* class selector to style the title(h2) of the <section> (filter) */
+.filter-h {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+/* id selector to style the drop-down menu of the <section> (filter) */
+#genre-filter {
+  border-radius: 3px;
+  width: 90%;
+  padding: 5px;
+  color: #092581;
+  border-color: #092581;
+}
+
+/* class selector to style the <section> (books) */
+.books {
+  margin: 20px;
+  padding: 10px;
+}
+
+/* class selector to style the <div> (book) */
+.book {
+  background-color: #ffffff;
+  padding: 10px;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 7px;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+}
+
+/* class selector to style the <div> (book-image) */
+.book-image {
+  text-align: center;
+}
+
+/* class selector to style the images inside the <div> (book-image) */
+.image-b {
+  max-width: 100%;
+  width: 300px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+/* class selector to style the <div> (book-info) */
+.book-info {
+  text-align: left;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+/* class selector to style the title(h3) of the <div> (book-info) */
+.book-h {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #092581;
+}
+
+/* class selector to style the paragraph(p) of the <div> (book-info) */
+.book-p {
+  font-size: 14px;
+  line-height: 1.3;
+  padding: 3px;
+  color: #092581;
+}
+
+/* id selector to style the button to add to cart of the <section> (book) */
+#add-btn {
+  background-color: #19a5a5c7;
+  padding: 8px;
+  border-radius: 4px;
+  color: #092581;
+  border: none;
+  width: 40%;
+}
+
+/* to style the button to add to cart of the <section> (book), when the mouse passes over */
+#add-btn:hover {
+  background-color: #092581;
+  color: #08e6e698;
+}
+
+/* to style the <footer> of the page */
+footer {
+  background-color: #19a5a5c7;
+  text-align: center;
+  color: #092581;
+  padding: 8px;
+  font-size: 12px;
+}

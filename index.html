@@ -1,0 +1,118 @@
+<!DOCTYPEhtml>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width:device-width, initial-scale=1.0">
+        <title>Online Bookstore</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- The <header> defines content with intriductory information of the page. There is only one per page.  -->
+        <header>
+            <h1>LUNA'S BOOKSTORE</h1>
+        </header>
+        <!-- The <main> contains the main content and in this case it has 2 section. -->
+        <main>
+            <!-- First <section>: the user can filter the books that exist in the bookstore by genre through a drop-down menu.  -->
+            <section class="filter">
+                <h2 class="filter-h">Filter by gender</h2>
+                <select name="genre-f" id="genre-filter">
+                    <option value="all">All Genres</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="mistery">Mistery</option>
+                    <option value="romance">Romance</option>
+                    <option value="computer-technologies">Computer & Technologies</option>
+                    <option value="crime">Crime</option>
+                </select>
+            </section>
+            <!-- Second <section>: the user can see the books available in the bookstore. -->
+            <section class="books">
+                <div class="book">
+                    <div class="book-image">
+                        <img class="image-b" src="./images/Harry Quebert.jpg" alt="Harry Quebert book">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-h">The truth about the Harry Quebert affair</h3>
+                        <p class="book-p">Author: Joël Dicker</p>
+                        <p class="book-p">Genre: Thriller</p>
+                        <p class="book-p">Price: 19.99€</p>
+                    </div>
+                    <input type="button" value="Add to cart" id="add-btn">
+                </div>
+                <div class="book">
+                    <div class="book-image">
+                        <img class="image-b" src="./images/Gone girl.jpg" alt="Gone girl book">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-h">Gone girl</h3>
+                        <p class="book-p">Author: Gillian Flynn</p>
+                        <p class="book-p">Genre: Crime</p>
+                        <p class="book-p">Price: 17.99€</p>
+                    </div>
+                    <input type="button" value="Add to cart" id="add-btn">
+                </div>
+                <div class="book">
+                    <div class="book-image">
+                        <img class="image-b" src="./images/HTML&CSS Design and build websites.jpg" alt="HTML&CSS book">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-h">HTML&CSS Design and build websites</h3>
+                        <p class="book-p">Author: Jon Duckett</p>
+                        <p class="book-p">Genre: Computer & Technologies</p>
+                        <p class="book-p">Price: 25.99€</p>
+                    </div>
+                    <input type="button" value="Add to cart" id="add-btn">
+                </div>
+                <div class="book">
+                    <div class="book-image">
+                        <img class="image-b" src="./images/The enigma of room 622.jpg" alt="The enigma book">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-h">The enigma of room 622</h3>
+                        <p class="book-p">Author: Joël Dicker</p>
+                        <p class="book-p">Genre: Mistery</p>
+                        <p class="book-p">Price: 20.99€</p>
+                    </div>
+                    <input type="button" value="Add to cart" id="add-btn">
+                </div>
+                <div class="book">
+                    <div class="book-image">
+                        <img class="image-b" src="./images/Eloquent Javascript.jpg" alt="Eloquent JavaScript book">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-h">Eloquent JavaScript</h3>
+                        <p class="book-p">Author: Marijn Haverbeke</p>
+                        <p class="book-p">Genre: Computer & Technologies</p>
+                        <p class="book-p">Price: 29.99€</p>
+                    </div>
+                    <input type="button" value="Add to cart" id="add-btn">
+                </div>
+                <div class="book">
+                    <div class="book-image">
+                        <img class="image-b" src="./images/The notebook.jpg" alt="The book">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-h">The notebook</h3>
+                        <p class="book-p">Author: Nicholas Sparks</p>
+                        <p class="book-p">Genre: Romance</p>
+                        <p class="book-p">Price: 18.99€</p>
+                    </div>
+                    <input type="button" value="Add to cart" id="add-btn">
+                </div>
+            </section>
+        </main>
+        <!-- The <footer> is used at the bottom of a page and includes among other information, the copyright -->
+        <footer>
+            <p>&#169 2024 Luna Bookstore</p>
+        </footer>
+    </body>
+
+    </html>
