@@ -1,9 +1,10 @@
-## **02 - Online Bookstore**
+## **Online Bookstore**
 
 ### **Project Description:**
 
 The Online Bookstore project is a simple web application aimed at showcasing the skills in HTML and CSS. 
 It simulates an online bookstore where users can filter books by genre and view book details. This project provides with hands-on experience in building a web page layout, styling elements, and using HTML forms.
+
 ### **Project Objectives:**
 
 1. HTML structure: create a well-structured HTML document with appropriate headings, sections and semantic elements.
